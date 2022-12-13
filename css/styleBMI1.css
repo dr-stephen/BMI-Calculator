@@ -1,0 +1,124 @@
+/*------------------------------------------------------------------
+    IMPORT FONTS
+-------------------------------------------------------------------*/
+@font-face {
+  font-family: LowerEastSideRegular;
+  src: url("../Fonts/LowerEastSideRegular.ttf");
+}
+
+body{
+	font-family: LowerEastSideRegular;
+}
+
+.Helvetica {
+	font-family: Helvetica;
+}
+
+.sans-serif {
+	font-family: "sans-serif";
+}
+
+.bmi-bg{
+	background-color: black;
+}
+
+#bmi-section {
+	padding: 0px;
+	margin: 30px auto;
+}
+
+#bmi-canvas {
+    height: 550px;
+    width: 380px;
+	margin: 0px auto;
+    background-color: #DBC3F0;
+    padding: 7px 20px;
+	border-radius: 7px;
+    border: 3px solid #F0FFFD;
+}
+
+.bmi-calculator {
+	text-align: center;
+	color: indigo;
+	margin: 30px 30px 20px 30px;
+	font-size: 4.2rem;
+	font-weight: 600;
+}
+
+.enter-size{
+	font-weight: 300;
+	font-size: 1.7rem;
+	color: blueviolet;
+	margin-left: 10px;
+}
+
+#height, #weight {
+    width: 150px;
+    height: 25px;
+	font-weight: 300;
+	font-size: 1.7rem;
+	color: green;
+	background-color: #EDEFFF;
+    margin: 0px 30px 0px 10px;
+}
+
+
+#btn-wrapper{
+	text-align: center;
+	margin: 40px auto 30px auto;
+}
+
+.bmi-button{
+     color: purple;
+	 background-color: #E9D5F8;
+     display: inline-block;
+	 font-size: 1.7rem;
+     font-weight: 700;
+     border: 1px solid #620B64;
+	 border-radius: 7px;
+     cursor: pointer;
+     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+     padding: 0.75rem 1.25rem;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.30);
+    -ms-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.30);
+    -o-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.30);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.30);
+    z-index: 111;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+   
+.bmi-button:hover{
+     color: #F4E6F7;
+	 background-color: purple;
+}
+
+
+#results{
+	font-family: Helvetica;
+    font-size: 1.7rem;
+	font-weight: 450;
+	margin: 0px auto 17px auto;
+	text-align: center;
+	color: red;
+	background-color: #E9E8E8;
+	border-radius: 7px;
+}
+
+#weight-guide {
+	margin-top: auto;
+}
+
+#weight-guide h2{
+	margin-top: 0px;
+	color: purple;
+}
+
+#weight-guide p{
+	color: darkred;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../apps/BMI Calculator/css/styleBMI2.css">
+	<link rel="stylesheet" href="../../apps/BMI Calculator/css/all.css">
+    <title>BMI Calculator</title> 
+</head>
+	
+<body>
+
+	<div id="bmi-section">	
+	<div id="bmi-canvas">
+	  <div><h1 id="bmi-calculator" class="fontshadow44">BMI Calculator</h1></div>
+	<form>
+      <div class="enter-size">
+		<p><label>Height in CM </label><input type="text" id="height"></p>
+		<p><label>Weight in KG </label><input type="text" id="weight"></p>
+	  </div>
+	  <div id="btn-calc"><button class="btn bmi-button GlassAntiqua">CALCULATE</button></div>
+	  <div id="results"></div>
+      <div class="weight-guide text-center">
+		<h2 class="fontshadow44">BMI Weight Guide</h2>
+		<p class="GlassAntiqua">Under Weight = Less than 18.6
+		<br>Normal Range = 18.6 and 24.9
+		<br>Overweight = Greater than 24.9</p>
+	  </div>
+	</form>
+    </div>
+	</div>   <!-- end bmi section -->
+	
+  <script src="../../apps/BMI Calculator/js/bmi.js"></script>
+</body>
+</html>
